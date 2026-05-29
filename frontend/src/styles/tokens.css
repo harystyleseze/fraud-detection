@@ -1,0 +1,132 @@
+/* ============================================================
+   VERIDIAN — Design Tokens: Color & Type  (v2 — oceanic navy)
+   Deep navy base · vivid teal brand · color used only as signal.
+   Fonts: Geist (UI) + Geist Mono (data).
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* ---------- Font families ---------- */
+  --font-ui:   'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  /* ---------- Surfaces (deep oceanic navy — domain-appropriate) ---------- */
+  --canvas:     #0B1220;  /* app background, deepest */
+  --surface-1:  #111B2A;  /* primary panel / card */
+  --surface-2:  #172236;  /* nested / hover */
+  --surface-3:  #1E2D44;  /* raised / active */
+  --overlay:    #0F1929;  /* modal / popover base */
+  --scrim:      rgba(6, 10, 20, 0.72);
+
+  /* ---------- Borders / hairlines (subtle blue tint) ---------- */
+  --border-faint:  rgba(100, 160, 255, 0.05);
+  --border:        rgba(100, 160, 255, 0.10);
+  --border-strong: rgba(100, 160, 255, 0.20);
+  --focus-ring:    rgba(100, 160, 255, 0.50);
+
+  /* ---------- Foreground / text ---------- */
+  --fg-1: #E4EBF5;  /* primary text */
+  --fg-2: #7A8FA8;  /* secondary text */
+  --fg-3: #4A5C72;  /* muted / labels / captions */
+  --fg-on-brand:  #041A0C; /* text on green fills */
+  --fg-on-accent: #FFFFFF; /* text on colored fills */
+
+  /* ---------- Primary action = near-white (the modern signal) ---------- */
+  --action:       #FAFAFA;
+  --action-hover: #FFFFFF;
+  --action-press: #E4E4E6;
+  --action-fg:    #0B1220;
+  --action-weak:  rgba(255, 255, 255, 0.08);
+  --action-weak-bd: rgba(255, 255, 255, 0.16);
+
+  /* ---------- Brand = vivid teal-green (verified / clear). Used SPARINGLY. ---------- */
+  --brand:        #2DC98A;
+  --brand-hover:  #35D696;
+  --brand-press:  #25B077;
+  --brand-weak:   rgba(45, 201, 138, 0.13);
+  --brand-weak-bd:rgba(45, 201, 138, 0.28);
+
+  /* ---------- Info: blue (links, charts, Rule 2) ---------- */
+  --info:        #4C8DF6;
+  --info-hover:  #3B7DEC;
+  --info-weak:   rgba(76, 141, 246, 0.12);
+  --info-weak-bd:rgba(76, 141, 246, 0.30);
+
+  /* ---------- Semantic: fraud states ---------- */
+  --danger:      #E5484D;  /* flagged */
+  --danger-hover:#EC5D62;
+  --danger-weak: rgba(229, 72, 77, 0.13);
+  --danger-weak-bd: rgba(229, 72, 77, 0.32);
+
+  --warn:        #E0A23A;  /* warning / attention */
+  --warn-weak:   rgba(224, 162, 58, 0.13);
+  --warn-weak-bd:rgba(224, 162, 58, 0.32);
+
+  --success:     var(--brand);
+  --success-weak:var(--brand-weak);
+
+  /* ---------- Per-rule chart colors ---------- */
+  --rule-rapid:    #E5484D; /* Rule 1 — rapid transactions */
+  --rule-limit:    #4C8DF6; /* Rule 2 — daily spending limit */
+  --rule-location: #E0A23A; /* Rule 3 — impossible location jump */
+
+  /* ---------- Radii (tight = precise) ---------- */
+  --r-sm:   4px;
+  --r-md:   6px;
+  --r-lg:   8px;
+  --r-xl:   12px;
+  --r-pill: 999px;
+
+  /* ---------- Spacing scale (4px base) ---------- */
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px; --sp-4: 16px; --sp-5: 20px;
+  --sp-6: 24px; --sp-8: 32px; --sp-10: 40px; --sp-12: 48px; --sp-16: 64px;
+
+  /* ---------- Elevation ---------- */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px -4px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 18px 44px -18px rgba(0, 0, 0, 0.75);
+  --shadow-inset: none;
+
+  /* ---------- Motion ---------- */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 110ms;
+  --dur: 160ms;
+  --dur-slow: 260ms;
+
+  /* ---------- Grid texture ---------- */
+  --grid-line: rgba(100, 160, 255, 0.025);
+  --grid: linear-gradient(var(--grid-line) 1px, transparent 1px),
+          linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  --grid-size: 30px 30px;
+
+  /* ---------- Type scale ---------- */
+  --display-size: 44px; --display-lh: 1.04; --display-w: 600;
+  --h1-size: 28px;      --h1-lh: 1.15;      --h1-w: 600;
+  --h2-size: 21px;      --h2-lh: 1.25;      --h2-w: 600;
+  --h3-size: 16px;      --h3-lh: 1.35;      --h3-w: 600;
+  --body-lg-size: 16px; --body-lg-lh: 1.55; --body-lg-w: 400;
+  --body-size: 14px;    --body-lh: 1.5;     --body-w: 400;
+  --small-size: 13px;   --small-lh: 1.45;   --small-w: 400;
+  --label-size: 11px;   --label-lh: 1.3;    --label-w: 600;
+  --caption-size: 11px; --caption-lh: 1.4;  --caption-w: 500;
+  --mono-size: 12.5px;  --mono-lh: 1.5;     --mono-w: 500;
+}
+
+/* ============================================================
+   Semantic type classes
+   ============================================================ */
+.v-display { font-family: var(--font-ui); font-weight: var(--display-w); font-size: var(--display-size); line-height: var(--display-lh); letter-spacing: -0.025em; color: var(--fg-1); }
+.v-h1 { font-family: var(--font-ui); font-weight: var(--h1-w); font-size: var(--h1-size); line-height: var(--h1-lh); letter-spacing: -0.02em; color: var(--fg-1); }
+.v-h2 { font-family: var(--font-ui); font-weight: var(--h2-w); font-size: var(--h2-size); line-height: var(--h2-lh); letter-spacing: -0.015em; color: var(--fg-1); }
+.v-h3 { font-family: var(--font-ui); font-weight: var(--h3-w); font-size: var(--h3-size); line-height: var(--h3-lh); letter-spacing: -0.01em; color: var(--fg-1); }
+.v-body-lg { font-family: var(--font-ui); font-weight: var(--body-lg-w); font-size: var(--body-lg-size); line-height: var(--body-lg-lh); color: var(--fg-2); }
+.v-body { font-family: var(--font-ui); font-weight: var(--body-w); font-size: var(--body-size); line-height: var(--body-lh); color: var(--fg-2); }
+.v-small { font-family: var(--font-ui); font-weight: var(--small-w); font-size: var(--small-size); line-height: var(--small-lh); color: var(--fg-2); }
+.v-label { font-family: var(--font-ui); font-weight: var(--label-w); font-size: var(--label-size); line-height: var(--label-lh); letter-spacing: 0.07em; text-transform: uppercase; color: var(--fg-3); }
+.v-caption { font-family: var(--font-ui); font-weight: var(--caption-w); font-size: var(--caption-size); line-height: var(--caption-lh); color: var(--fg-3); }
+.v-mono { font-family: var(--font-mono); font-weight: var(--mono-w); font-size: var(--mono-size); line-height: var(--mono-lh); font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; color: var(--fg-1); }
+.v-code { font-family: var(--font-mono); font-weight: 400; font-size: 12.5px; line-height: 1.6; background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--r-sm); padding: 0.12em 0.4em; color: var(--brand); }
+
+.v-wordmark { font-family: var(--font-ui); font-weight: 600; letter-spacing: 0.01em; color: var(--fg-1); }
