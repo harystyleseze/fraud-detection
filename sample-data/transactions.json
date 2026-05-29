@@ -1,0 +1,77 @@
+[
+  {"transactionId":"TXN-1001","userId":"USR001","amount":50.00,"timestamp":"2025-01-15T10:00:00","merchant":"Shoprite Lagos","location":"Lagos, NG"},
+  {"transactionId":"TXN-1002","userId":"USR001","amount":75.50,"timestamp":"2025-01-15T10:00:08","merchant":"MTN Recharge","location":"Lagos, NG"},
+  {"transactionId":"TXN-1003","userId":"USR001","amount":30.00,"timestamp":"2025-01-15T10:00:16","merchant":"Bolt Ride","location":"Lagos, NG"},
+  {"transactionId":"TXN-1004","userId":"USR001","amount":120.00,"timestamp":"2025-01-15T10:00:24","merchant":"Jumia Food","location":"Lagos, NG"},
+  {"transactionId":"TXN-1005","userId":"USR001","amount":200.00,"timestamp":"2025-01-15T10:00:32","merchant":"Zara Lagos","location":"Lagos, NG"},
+  {"transactionId":"TXN-1006","userId":"USR001","amount":85.00,"timestamp":"2025-01-15T10:00:40","merchant":"Chicken Republic","location":"Lagos, NG"},
+  {"transactionId":"TXN-1007","userId":"USR001","amount":45.00,"timestamp":"2025-01-15T10:00:44","merchant":"Total Petrol","location":"Lagos, NG"},
+  {"transactionId":"TXN-1008","userId":"USR001","amount":60.00,"timestamp":"2025-01-15T10:00:47","merchant":"Coldstone Lagos","location":"Lagos, NG"},
+  {"transactionId":"TXN-1009","userId":"USR001","amount":90.00,"timestamp":"2025-01-15T14:00:00","merchant":"Shoprite Ikeja","location":"Lagos, NG"},
+  {"transactionId":"TXN-1010","userId":"USR001","amount":150.00,"timestamp":"2025-01-15T18:30:00","merchant":"Genesis Cinema","location":"Lagos, NG"},
+
+  {"transactionId":"TXN-2001","userId":"USR002","amount":3500.00,"timestamp":"2025-01-15T09:00:00","merchant":"AutoMart Abuja","location":"Abuja, NG"},
+  {"transactionId":"TXN-2002","userId":"USR002","amount":4200.00,"timestamp":"2025-01-15T11:00:00","merchant":"Building Materials Plus","location":"Abuja, NG"},
+  {"transactionId":"TXN-2003","userId":"USR002","amount":2800.00,"timestamp":"2025-01-15T14:00:00","merchant":"Premium Electronics","location":"Abuja, NG"},
+  {"transactionId":"TXN-2004","userId":"USR002","amount":1500.00,"timestamp":"2025-01-15T16:00:00","merchant":"Luxury Wears Abuja","location":"Abuja, NG"},
+  {"transactionId":"TXN-2005","userId":"USR002","amount":200.00,"timestamp":"2025-01-15T18:00:00","merchant":"Mr Biggs","location":"Abuja, NG"},
+
+  {"transactionId":"TXN-3001","userId":"USR003","amount":500.00,"timestamp":"2025-01-15T08:00:00","merchant":"First Bank ATM","location":"Lagos, NG"},
+  {"transactionId":"TXN-3002","userId":"USR003","amount":750.00,"timestamp":"2025-01-15T08:01:30","merchant":"Harrods London","location":"London, UK"},
+  {"transactionId":"TXN-3003","userId":"USR003","amount":200.00,"timestamp":"2025-01-15T10:00:00","merchant":"Tesco Express","location":"London, UK"},
+  {"transactionId":"TXN-3004","userId":"USR003","amount":300.00,"timestamp":"2025-01-15T10:01:00","merchant":"Uber London","location":"Manchester, UK"},
+  {"transactionId":"TXN-3005","userId":"USR003","amount":1200.00,"timestamp":"2025-01-15T16:00:00","merchant":"Selfridges","location":"London, UK"},
+
+  {"transactionId":"TXN-4001","userId":"USR004","amount":2000.00,"timestamp":"2025-01-15T09:00:00","merchant":"InterContinental Hotel Lagos","location":"Lagos, NG"},
+  {"transactionId":"TXN-4002","userId":"USR004","amount":2000.00,"timestamp":"2025-01-15T09:00:09","merchant":"Rolex Lagos","location":"Lagos, NG"},
+  {"transactionId":"TXN-4003","userId":"USR004","amount":2000.00,"timestamp":"2025-01-15T09:00:18","merchant":"Apple Store Lagos","location":"Lagos, NG"},
+  {"transactionId":"TXN-4004","userId":"USR004","amount":2000.00,"timestamp":"2025-01-15T09:00:27","merchant":"BMW Showroom Lagos","location":"Lagos, NG"},
+  {"transactionId":"TXN-4005","userId":"USR004","amount":2000.00,"timestamp":"2025-01-15T09:00:36","merchant":"Armani Exchange","location":"Lagos, NG"},
+  {"transactionId":"TXN-4006","userId":"USR004","amount":2000.00,"timestamp":"2025-01-15T09:00:45","merchant":"Bulgari Lagos","location":"Lagos, NG"},
+  {"transactionId":"TXN-4007","userId":"USR004","amount":500.00,"timestamp":"2025-01-15T17:00:00","merchant":"Shoprite Victoria Island","location":"Lagos, NG"},
+
+  {"transactionId":"TXN-5001","userId":"USR005","amount":6000.00,"timestamp":"2025-01-15T20:00:00","merchant":"Sterling Bank Transfer","location":"Kano, NG"},
+  {"transactionId":"TXN-5002","userId":"USR005","amount":500.00,"timestamp":"2025-01-15T22:00:00","merchant":"Dangote Supermart","location":"Kano, NG"},
+  {"transactionId":"TXN-5003","userId":"USR005","amount":6000.00,"timestamp":"2025-01-16T08:00:00","merchant":"Kano Motors","location":"Kano, NG"},
+  {"transactionId":"TXN-5004","userId":"USR005","amount":1000.00,"timestamp":"2025-01-16T15:00:00","merchant":"Spar Kano","location":"Kano, NG"},
+
+  {"transactionId":"TXN-6001","userId":"USR006","amount":300.00,"timestamp":"2025-01-15T07:00:00","merchant":"FCMB ATM","location":"Port Harcourt, NG"},
+  {"transactionId":"TXN-6002","userId":"USR006","amount":450.00,"timestamp":"2025-01-15T07:02:01","merchant":"Shoprite Port Harcourt","location":"Enugu, NG"},
+  {"transactionId":"TXN-6003","userId":"USR006","amount":200.00,"timestamp":"2025-01-15T12:00:00","merchant":"Mr Biggs PH","location":"Port Harcourt, NG"},
+  {"transactionId":"TXN-6004","userId":"USR006","amount":600.00,"timestamp":"2025-01-15T17:30:00","merchant":"KFC Port Harcourt","location":"Port Harcourt, NG"},
+
+  {"transactionId":"TXN-7001","userId":"USR007","amount":100.00,"timestamp":"2025-01-15T11:00:00","merchant":"GTBank ATM","location":"Ibadan, NG"},
+  {"transactionId":"TXN-7002","userId":"USR007","amount":150.00,"timestamp":"2025-01-15T11:00:11","merchant":"Shoprite Ibadan","location":"Ibadan, NG"},
+  {"transactionId":"TXN-7003","userId":"USR007","amount":200.00,"timestamp":"2025-01-15T11:00:22","merchant":"KFC Ibadan","location":"Ibadan, NG"},
+  {"transactionId":"TXN-7004","userId":"USR007","amount":75.00,"timestamp":"2025-01-15T11:00:33","merchant":"Chicken Republic Ibadan","location":"Ibadan, NG"},
+  {"transactionId":"TXN-7005","userId":"USR007","amount":250.00,"timestamp":"2025-01-15T11:00:55","merchant":"Slot Nigeria Ibadan","location":"Ibadan, NG"},
+  {"transactionId":"TXN-7006","userId":"USR007","amount":500.00,"timestamp":"2025-01-15T14:00:00","merchant":"Dominos Ibadan","location":"Ibadan, NG"},
+  {"transactionId":"TXN-7007","userId":"USR007","amount":300.00,"timestamp":"2025-01-15T18:00:00","merchant":"Palms Mall Ibadan","location":"Ibadan, NG"},
+
+  {"transactionId":"TXN-8001","userId":"USR008","amount":400.00,"timestamp":"2025-01-15T06:00:00","merchant":"Access Bank Lagos","location":"Lagos, NG"},
+  {"transactionId":"TXN-8002","userId":"USR008","amount":600.00,"timestamp":"2025-01-15T06:01:00","merchant":"Dubai Mall","location":"Dubai, AE"},
+  {"transactionId":"TXN-8003","userId":"USR008","amount":1200.00,"timestamp":"2025-01-15T06:02:30","merchant":"Times Square NYC","location":"New York, US"},
+  {"transactionId":"TXN-8004","userId":"USR008","amount":350.00,"timestamp":"2025-01-15T10:00:00","merchant":"Shake Shack NYC","location":"New York, US"},
+  {"transactionId":"TXN-8005","userId":"USR008","amount":800.00,"timestamp":"2025-01-15T15:00:00","merchant":"Fifth Avenue Store","location":"New York, US"},
+
+  {"transactionId":"TXN-9001","userId":"USR009","amount":9999.00,"timestamp":"2025-01-15T13:00:00","merchant":"Abuja Motors Ltd","location":"Abuja, NG"},
+  {"transactionId":"TXN-9002","userId":"USR009","amount":500.00,"timestamp":"2025-01-15T15:00:00","merchant":"Shoprite Abuja","location":"Abuja, NG"},
+  {"transactionId":"TXN-9003","userId":"USR009","amount":200.00,"timestamp":"2025-01-15T18:00:00","merchant":"KFC Abuja","location":"Abuja, NG"},
+
+  {"transactionId":"TXN-A001","userId":"USR010","amount":200.00,"timestamp":"2025-01-15T08:00:00","merchant":"Zenith Bank ATM","location":"Enugu, NG"},
+  {"transactionId":"TXN-A002","userId":"USR010","amount":350.00,"timestamp":"2025-01-15T12:00:00","merchant":"Coal Camp Market","location":"Enugu, NG"},
+  {"transactionId":"TXN-A003","userId":"USR010","amount":150.00,"timestamp":"2025-01-15T16:00:00","merchant":"Ama Market Enugu","location":"Enugu, NG"},
+  {"transactionId":"TXN-A004","userId":"USR010","amount":500.00,"timestamp":"2025-01-15T20:00:00","merchant":"Genesis Cinemas Enugu","location":"Enugu, NG"},
+
+  {"transactionId":"TXN-B001","userId":"USR011","amount":10001.00,"timestamp":"2025-01-15T09:30:00","merchant":"Lekki Real Estate","location":"Lagos, NG"},
+  {"transactionId":"TXN-B002","userId":"USR011","amount":500.00,"timestamp":"2025-01-15T11:00:00","merchant":"Shoprite Lekki","location":"Lagos, NG"},
+  {"transactionId":"TXN-B003","userId":"USR011","amount":250.00,"timestamp":"2025-01-15T14:00:00","merchant":"Bungalow Restaurant","location":"Lagos, NG"},
+
+  {"transactionId":"TXN-C001","userId":"USR012","amount":300.00,"timestamp":"2025-01-15T07:00:00","merchant":"Wema Bank ATM","location":"Lagos, NG"},
+  {"transactionId":"TXN-C002","userId":"USR012","amount":350.00,"timestamp":"2025-01-15T07:00:09","merchant":"Tantalizers Lagos","location":"Lagos, NG"},
+  {"transactionId":"TXN-C003","userId":"USR012","amount":400.00,"timestamp":"2025-01-15T07:00:18","merchant":"Shoprite Festac","location":"Lagos, NG"},
+  {"transactionId":"TXN-C004","userId":"USR012","amount":450.00,"timestamp":"2025-01-15T07:00:27","merchant":"Chicken Republic Festac","location":"Lagos, NG"},
+  {"transactionId":"TXN-C005","userId":"USR012","amount":500.00,"timestamp":"2025-01-15T07:00:36","merchant":"KFC Festac","location":"Lagos, NG"},
+  {"transactionId":"TXN-C006","userId":"USR012","amount":550.00,"timestamp":"2025-01-15T07:00:44","merchant":"Mr Biggs Festac","location":"Abuja, NG"},
+  {"transactionId":"TXN-C007","userId":"USR012","amount":200.00,"timestamp":"2025-01-15T14:00:00","merchant":"Dominos Abuja","location":"Abuja, NG"}
+]
